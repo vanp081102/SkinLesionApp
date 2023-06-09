@@ -23,7 +23,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-# Add CSS styling for center alignment
+#Add CSS styling for center alignment
 st.markdown(
     """
     <style>
