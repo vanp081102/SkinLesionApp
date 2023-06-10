@@ -36,7 +36,7 @@ st.markdown(
 )
 
 # Load the pre-trained model
-model = tf.keras.models.load_model('best_model.h5')
+model = tf.keras.models.load_model('best_model (1).h5')
 
 # Define the labels for the categories
 labels = {
@@ -55,7 +55,7 @@ def preprocess_image(image):
     # Convert the image to a numpy array
     image_array = np.array(image)
     # Normalize the image array
-    image_array = image_array / 255.0
+    # image_array = image_array / 255.0
     # Add an extra dimension to match the model's input shape
     image_array = np.expand_dims(image_array, axis=0)
     return image_array
